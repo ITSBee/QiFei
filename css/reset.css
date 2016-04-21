@@ -7,7 +7,7 @@ body{
 	font-size:1.4rem;
 	line-height:1.5em;
 }
-body, p{
+body, p, h1, h2, h3, h4, h5, h6{
 	margin:0px;
 	padding:0px;
 }
@@ -16,10 +16,10 @@ img{
 }
 a{
 	text-decoration:none;
-	color:#666; /*根据页面配色风格设定*/
+	color:#173883; /*根据页面配色风格设定*/
 }
 a:hover{
-	color:#036; /*根据页面配色风格设定*/
+	color:#f4ae00; /*根据页面配色风格设定*/
 }
 
 li, ul, dt, dd{
@@ -40,4 +40,9 @@ li, ul, dt, dd{
 }
 .clearfix{
 	display:block;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
 }
