@@ -1,0 +1,43 @@
+@charset "UTF-8";
+html{
+	font-size:62.5%;
+}
+body{
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size:1.4rem;
+	line-height:1.5em;
+}
+body, p{
+	margin:0px;
+	padding:0px;
+}
+img{
+	border:none;vertical-align:middle;
+}
+a{
+	text-decoration:none;
+	color:#666; /*根据页面配色风格设定*/
+}
+a:hover{
+	color:#036; /*根据页面配色风格设定*/
+}
+
+li, ul, dt, dd{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+/* 清除浮动 */
+.clearfix:after{
+	content:"";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;}
+.clearfix{
+	display:inline-block;
+}
+.clearfix{
+	display:block;
+}
